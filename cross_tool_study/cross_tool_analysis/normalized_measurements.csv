@@ -1,0 +1,1 @@
+timestamp,tool,source_site,source_host,target_name,target_ip,measurement_type,rtt_ms,rtt_min_ms,rtt_max_ms,rtt_stddev_ms,packets_sent,packets_received,packet_loss_pct,hop_count,path,success

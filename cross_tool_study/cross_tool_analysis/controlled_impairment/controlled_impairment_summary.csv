@@ -1,0 +1,4 @@
+tool,delay_detected,delay_detection_delay,reported_delay_increase_ms,loss_detected,loss_detection_delay,first_reported_loss_pct,loss_samples_detected,loss_phase_samples,recovery_delay
+Grafana,False,,,True,00:18:55,33.333,4,5,00:17:18
+RIPE Atlas,True,00:03:09,49.657,False,,0.0,0,5,
+perfSONAR,False,,,True,00:07:12,20.0,4,5,00:03:50

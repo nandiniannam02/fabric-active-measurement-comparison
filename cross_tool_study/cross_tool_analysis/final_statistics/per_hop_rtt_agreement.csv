@@ -1,0 +1,7 @@
+target_name,comparable_hops,median_of_hop_differences_ms,mean_of_hop_differences_ms,max_hop_difference_ms
+Cloudflare,6,0.944,0.956,1.173
+FABRIC-SEAT,4,1.03,1.034,1.145
+Google,6,0.934,0.888,0.98
+RIPE-Dallas,6,0.956,444.155,2660.392
+RIPE-NYC,5,0.785,0.83,1.127
+RIPE-Seattle,15,0.738,0.661,0.95

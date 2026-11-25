@@ -1,0 +1,13 @@
+feature,perfSONAR,RIPE Atlas,Grafana Synthetic Monitoring
+Primary role,Scientific / research network measurement,Distributed Internet measurement platform,Continuous synthetic / operational monitoring
+Measurement source,Researcher-controlled FABRIC endpoint,RIPE Atlas software/public probe,Private probe deployed in FABRIC
+Source control,High,Moderate,High with private probe
+Ping / RTT,Yes,Yes,Yes
+Traceroute,Yes,Yes,Yes
+Throughput testing,Yes,No,No
+Packet-loss measurement,Yes,Yes,Yes
+Path-level detail,Detailed,Detailed,Operational / monitoring oriented
+Scheduling,pScheduler / pSConfig,RIPE Atlas measurement scheduler,Synthetic-check interval
+Typical deployment effort,Higher,Lower to moderate,Moderate
+Historical data access,OpenSearch / archive backend,REST API / downloadable results,Prometheus-compatible metrics / API
+Best fit in this study,Focal research measurement platform,Independent Internet measurement comparison,Continuous synthetic monitoring comparison

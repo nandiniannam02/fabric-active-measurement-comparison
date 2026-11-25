@@ -1,0 +1,11 @@
+result_area,headline_result,detail
+Baseline dataset,"3,456 normalized measurements across 3 tools","1,152 measurements per tool over the common 24-hour window"
+RTT agreement,Strong cross-tool agreement,"For Google, RIPE-NYC, RIPE-Seattle, and FABRIC-SEAT, average minimum RTT spread was below 0.4 ms"
+Packet loss / reachability,100% measurement success during baseline,Only one brief Google loss event was observed by Grafana and RIPE Atlas
+RTT stability,Highly stable normal-condition RTT,Temporal standard deviation was generally below 0.11 ms
+Hop-count agreement,Median hop counts closely matched,"Cloudflare, Google, RIPE-Dallas, and RIPE-Seattle had matching median hop counts across tools"
+Path variation,perfSONAR exposed more path-level variation,Many full-path changes were interface/load-balancing changes; hop-count analysis distinguished structural changes
+Per-hop RTT,Typical RIPE/perfSONAR per-hop difference ~1 ms or less,Median per-hop RTT differences ranged approximately 0.7–1.0 ms across targets
+Controlled delay,RIPE Atlas detected the +50 ms impairment,Detected after 3m 09s with a measured RTT increase of 49.657 ms
+Controlled packet loss,perfSONAR detected loss fastest,perfSONAR: 7m 12s; Grafana: 18m 55s; RIPE Atlas did not observe loss in sampled runs
+Recovery,perfSONAR showed fastest observed recovery,perfSONAR: 3m 50s; Grafana: 17m 18s

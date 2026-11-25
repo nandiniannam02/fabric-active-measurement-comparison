@@ -1,0 +1,10 @@
+analysis_area,main_finding,evidence
+RTT agreement,perfSONAR showed close RTT agreement with RIPE Atlas and Grafana for most targets.,Median absolute paired RTT differences were generally below 0.4 ms for most targets.
+Systematic RTT offset,RIPE-Dallas showed a distinct perfSONAR–RIPE Atlas offset.,Bland–Altman bias = -1.408 ms; 95% limits of agreement = -1.633 to -1.182 ms.
+perfSONAR vs Grafana,Agreement remained close across all six targets.,Target-level biases ranged approximately from -0.104 ms to +0.372 ms.
+Magnitude-dependent differences,"A few targets showed mild proportional structure, but the absolute effect was small.",Fitted change in tool difference across the observed RTT range remained below about 0.3 ms.
+Hop-count agreement,Median hop counts showed strong agreement for most targets.,"Cloudflare, Google, RIPE-Dallas, and RIPE-Seattle showed matching median hop counts across tools."
+Path variation,perfSONAR exposed more full-path variation than the other two tools.,Hop-count analysis showed that some full-path churn was likely interface/load-balancing variation rather than major structural route change.
+Controlled delay,RIPE Atlas captured the +50 ms delay impairment.,Detection delay = 3 min 09 sec; measured RTT increase = 49.657 ms.
+Controlled packet loss,perfSONAR detected the 20% loss condition earlier than Grafana.,perfSONAR detection = 7 min 12 sec; Grafana detection = 18 min 55 sec.
+Recovery,perfSONAR showed the fastest observed recovery.,perfSONAR recovery = 3 min 50 sec; Grafana recovery = 17 min 18 sec.

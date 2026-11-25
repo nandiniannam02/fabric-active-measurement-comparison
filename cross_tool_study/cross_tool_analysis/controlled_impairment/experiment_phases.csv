@@ -1,0 +1,5 @@
+phase,start_utc,end_utc,condition
+delay_50ms,2026-11-14 20:01:35,2026-11-14 20:08:00,+50 ms netem delay
+recovery_after_delay,2026-11-14 20:08:00,2026-11-14 20:11:05,normal network
+loss_20pct,2026-11-14 20:11:05,2026-11-14 21:27:42,20% netem packet loss
+final_recovery,2026-11-14 21:27:42,,normal network

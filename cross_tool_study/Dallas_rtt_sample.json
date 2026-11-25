@@ -1,0 +1,4457 @@
+[
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T18:31:20.358458346Z",
+    "id": "50043678-1449-4590-8716-039fe6a9d5f6",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000536,
+        "min": 0.001886,
+        "mean": 0.002181,
+        "max": 0.003254
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00325S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00195S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00192S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00189S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/50043678-1449-4590-8716-039fe6a9d5f6",
+      "added": "2026-11-11T21:52:59+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T18:31:20+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T18:31:16+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "50043678-1449-4590-8716-039fe6a9d5f6",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T18:17:45.398444203Z",
+    "id": "362ab9ad-51ca-4b71-91d7-e64a07ea1bee",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000532,
+        "min": 0.002014,
+        "mean": 0.002352,
+        "max": 0.003413
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00341S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00216S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00209S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00209S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00201S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/362ab9ad-51ca-4b71-91d7-e64a07ea1bee",
+      "added": "2026-11-11T21:52:49+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T18:17:45+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T18:17:41+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "362ab9ad-51ca-4b71-91d7-e64a07ea1bee",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T18:02:01.426246216Z",
+    "id": "015a227e-e1e2-4e68-b4fc-8f34498441f4",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000576,
+        "min": 0.001967,
+        "mean": 0.002294,
+        "max": 0.003446
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00345S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00197S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00207S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00199S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.002S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/015a227e-e1e2-4e68-b4fc-8f34498441f4",
+      "added": "2026-11-11T21:52:39+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T18:02:01+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T18:01:57+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "015a227e-e1e2-4e68-b4fc-8f34498441f4",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T17:54:05.385525673Z",
+    "id": "010bc4fe-da5e-4337-8826-1f5779b2d208",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000422,
+        "min": 0.001967,
+        "mean": 0.00227,
+        "max": 0.003106
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00311S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00216S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00208S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00197S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00204S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/010bc4fe-da5e-4337-8826-1f5779b2d208",
+      "added": "2026-11-11T21:52:29+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T17:54:05+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T17:54:01+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "010bc4fe-da5e-4337-8826-1f5779b2d208",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T17:39:24.417462413Z",
+    "id": "3d9d94f4-2d4f-46ce-bab2-3665740f0858",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000133,
+        "min": 0.001883,
+        "mean": 0.001983,
+        "max": 0.002243
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00224S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00195S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00189S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00188S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00196S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/3d9d94f4-2d4f-46ce-bab2-3665740f0858",
+      "added": "2026-11-11T21:52:19+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T17:39:24+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T17:39:20+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "3d9d94f4-2d4f-46ce-bab2-3665740f0858",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T17:20:40.399763274Z",
+    "id": "452c36c7-56f1-4021-bec8-2adf8edf8008",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 3.3e-05,
+        "min": 0.002185,
+        "mean": 0.002214,
+        "max": 0.002281
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00219S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00228S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/452c36c7-56f1-4021-bec8-2adf8edf8008",
+      "added": "2026-11-11T21:52:09+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T17:20:40+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T17:20:36+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "452c36c7-56f1-4021-bec8-2adf8edf8008",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T16:58:01.618699838Z",
+    "id": "f6c6291e-afd0-4818-8d97-d4df29bedb59",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.00023,
+        "min": 0.001932,
+        "mean": 0.00209,
+        "max": 0.002529
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00253S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00212S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00193S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00193S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00194S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/f6c6291e-afd0-4818-8d97-d4df29bedb59",
+      "added": "2026-11-11T21:51:58+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T16:58:01+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T16:57:57+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "f6c6291e-afd0-4818-8d97-d4df29bedb59",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T16:42:51.383375922Z",
+    "id": "dd7e9d84-9cb8-46aa-9c4c-5738bd740970",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000356,
+        "min": 0.002125,
+        "mean": 0.00236,
+        "max": 0.003069
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00307S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00213S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00221S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00223S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00217S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/dd7e9d84-9cb8-46aa-9c4c-5738bd740970",
+      "added": "2026-11-11T21:51:48+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T16:42:51+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T16:42:47+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "dd7e9d84-9cb8-46aa-9c4c-5738bd740970",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T16:29:28.414009984Z",
+    "id": "bdb3cc6c-dda3-4aba-a671-ae8f7602fb37",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000386,
+        "min": 0.001826,
+        "mean": 0.002058,
+        "max": 0.002825
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00283S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00197S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00184S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00183S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00183S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/bdb3cc6c-dda3-4aba-a671-ae8f7602fb37",
+      "added": "2026-11-11T21:51:38+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T16:29:28+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T16:29:24+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "bdb3cc6c-dda3-4aba-a671-ae8f7602fb37",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T16:20:13.390352341Z",
+    "id": "a34081c2-0c49-41d3-8d62-74467581c35c",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000642,
+        "min": 0.002265,
+        "mean": 0.00266,
+        "max": 0.00394
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00394S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00227S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00243S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00236S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00231S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/a34081c2-0c49-41d3-8d62-74467581c35c",
+      "added": "2026-11-11T21:51:28+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T16:20:13+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T16:20:09+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "a34081c2-0c49-41d3-8d62-74467581c35c",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T15:57:09.419949151Z",
+    "id": "1a8acaf3-4539-4b06-8e91-ffdf18632c2d",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000546,
+        "min": 0.002054,
+        "mean": 0.002345,
+        "max": 0.003438
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00344S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0021S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00205S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00206S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00208S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/1a8acaf3-4539-4b06-8e91-ffdf18632c2d",
+      "added": "2026-11-11T21:51:18+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T15:57:09+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T15:57:05+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "1a8acaf3-4539-4b06-8e91-ffdf18632c2d",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T15:43:04.365838207Z",
+    "id": "42e6dd3c-dd76-40f1-b2c0-6158e4c3e1f0",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000595,
+        "min": 0.001951,
+        "mean": 0.002282,
+        "max": 0.003473
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00347S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00199S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00195S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.002S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.002S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/42e6dd3c-dd76-40f1-b2c0-6158e4c3e1f0",
+      "added": "2026-11-11T21:51:08+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T15:43:04+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T15:43:00+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "42e6dd3c-dd76-40f1-b2c0-6158e4c3e1f0",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T15:35:16.440588909Z",
+    "id": "784b04a1-c5bf-4620-ac84-b1ab39bb7e55",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000386,
+        "min": 0.002235,
+        "mean": 0.002496,
+        "max": 0.003258
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00326S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00228S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00227S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00244S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00224S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/784b04a1-c5bf-4620-ac84-b1ab39bb7e55",
+      "added": "2026-11-11T21:50:58+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T15:35:16+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T15:35:12+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "784b04a1-c5bf-4620-ac84-b1ab39bb7e55",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T15:15:33.362378679Z",
+    "id": "1f495ebd-6ac8-402d-954a-b02ef9333875",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 8.3e-05,
+        "min": 0.002123,
+        "mean": 0.002215,
+        "max": 0.002355
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00236S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00225S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00212S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00214S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/1f495ebd-6ac8-402d-954a-b02ef9333875",
+      "added": "2026-11-11T21:50:48+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T15:15:33+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T15:15:29+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "1f495ebd-6ac8-402d-954a-b02ef9333875",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T15:08:16.391847235Z",
+    "id": "ab85674d-68e8-43a2-84fd-b4e30ac9f02f",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000282,
+        "min": 0.001934,
+        "mean": 0.00216,
+        "max": 0.002716
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00272S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00193S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00201S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00209S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00206S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/ab85674d-68e8-43a2-84fd-b4e30ac9f02f",
+      "added": "2026-11-11T21:50:38+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T15:08:16+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T15:08:12+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "ab85674d-68e8-43a2-84fd-b4e30ac9f02f",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T14:55:40.408287330Z",
+    "id": "19fa525b-3b8d-48fc-ad42-3fe7243f8d2e",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000627,
+        "min": 0.001899,
+        "mean": 0.002278,
+        "max": 0.003528
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00353S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00203S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00203S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/19fa525b-3b8d-48fc-ad42-3fe7243f8d2e",
+      "added": "2026-11-11T21:50:28+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T14:55:40+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T14:55:36+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "19fa525b-3b8d-48fc-ad42-3fe7243f8d2e",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T14:38:20.411618569Z",
+    "id": "ae9d497f-e352-4801-bee6-efcc615fd1ba",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000407,
+        "min": 0.00188,
+        "mean": 0.002152,
+        "max": 0.002963
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00296S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00199S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00196S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00188S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00197S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/ae9d497f-e352-4801-bee6-efcc615fd1ba",
+      "added": "2026-11-11T21:50:18+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T14:38:20+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T14:38:16+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "ae9d497f-e352-4801-bee6-efcc615fd1ba",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T14:23:44.398127908Z",
+    "id": "e8a71d45-cca5-4ab1-9463-bfc225ee6abe",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000594,
+        "min": 0.001862,
+        "mean": 0.002238,
+        "max": 0.003424
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00342S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00198S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00198S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00195S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00186S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/e8a71d45-cca5-4ab1-9463-bfc225ee6abe",
+      "added": "2026-11-11T21:50:08+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T14:23:44+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T14:23:40+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "e8a71d45-cca5-4ab1-9463-bfc225ee6abe",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T14:10:57.458451889Z",
+    "id": "0b4b7a32-f154-4e34-a17b-8ae814df6190",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000526,
+        "min": 0.001891,
+        "mean": 0.002183,
+        "max": 0.003236
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00324S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00189S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00196S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00193S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/0b4b7a32-f154-4e34-a17b-8ae814df6190",
+      "added": "2026-11-11T21:49:58+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T14:10:57+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T14:10:53+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "0b4b7a32-f154-4e34-a17b-8ae814df6190",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T13:48:23.359345078Z",
+    "id": "90745392-fe40-4fc5-9ae2-40dff9dc07fb",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000551,
+        "min": 0.001963,
+        "mean": 0.002344,
+        "max": 0.003439
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00344S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0021S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00205S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00196S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00218S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/90745392-fe40-4fc5-9ae2-40dff9dc07fb",
+      "added": "2026-11-11T21:49:48+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T13:48:23+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T13:48:19+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "90745392-fe40-4fc5-9ae2-40dff9dc07fb",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T13:28:59.406479821Z",
+    "id": "20976656-f659-442a-b93c-08e05fb4fcca",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000524,
+        "min": 0.001813,
+        "mean": 0.002137,
+        "max": 0.003185
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00319S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00192S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00181S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00187S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/20976656-f659-442a-b93c-08e05fb4fcca",
+      "added": "2026-11-11T21:49:38+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T13:28:59+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T13:28:55+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "20976656-f659-442a-b93c-08e05fb4fcca",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T13:23:03.388866364Z",
+    "id": "046798fb-011c-44ae-8b58-289c427f44dc",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000418,
+        "min": 0.002077,
+        "mean": 0.002372,
+        "max": 0.003197
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0032S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00213S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00229S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00217S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00208S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/046798fb-011c-44ae-8b58-289c427f44dc",
+      "added": "2026-11-11T21:49:28+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T13:23:03+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T13:22:59+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "046798fb-011c-44ae-8b58-289c427f44dc",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T13:10:48.428091482Z",
+    "id": "0d1dd0f0-0e0c-4366-bc0b-8bb81c988b43",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 6.9e-05,
+        "min": 0.001866,
+        "mean": 0.001934,
+        "max": 0.002065
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00207S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00191S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00187S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00194S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/0d1dd0f0-0e0c-4366-bc0b-8bb81c988b43",
+      "added": "2026-11-11T21:49:18+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T13:10:48+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T13:10:44+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "0d1dd0f0-0e0c-4366-bc0b-8bb81c988b43",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T12:56:17.386850857Z",
+    "id": "c0b1ffe6-f46e-445a-b369-3b8de3fbe9b9",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000412,
+        "min": 0.001923,
+        "mean": 0.002269,
+        "max": 0.003074
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00307S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00219S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00203S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00213S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00192S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/c0b1ffe6-f46e-445a-b369-3b8de3fbe9b9",
+      "added": "2026-11-11T21:49:08+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T12:56:17+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T12:56:13+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "c0b1ffe6-f46e-445a-b369-3b8de3fbe9b9",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T12:40:00.351141364Z",
+    "id": "7d51e772-5c9c-42de-acbd-860a5f74eca2",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 6.6e-05,
+        "min": 0.00196,
+        "mean": 0.002053,
+        "max": 0.002156
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00209S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00203S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00196S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00203S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00216S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/7d51e772-5c9c-42de-acbd-860a5f74eca2",
+      "added": "2026-11-11T21:48:58+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T12:40:00+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T12:39:56+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "7d51e772-5c9c-42de-acbd-860a5f74eca2",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T12:19:50.376109642Z",
+    "id": "1925e783-ac2b-42bb-8942-43f90942b79e",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000341,
+        "min": 0.002191,
+        "mean": 0.002408,
+        "max": 0.003084
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00308S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00219S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00233S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00224S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/1925e783-ac2b-42bb-8942-43f90942b79e",
+      "added": "2026-11-11T21:48:48+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T12:19:50+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T12:19:46+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "1925e783-ac2b-42bb-8942-43f90942b79e",
+      "duration": 10.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T12:06:41.431007911Z",
+    "id": "582e3df2-79ad-4106-a650-13450a1619c7",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "rtt": {
+        "stddev": 0.000194,
+        "min": 0.001998,
+        "mean": 0.002176,
+        "max": 0.002551
+      },
+      "packets": {
+        "received": 5,
+        "json": [
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 1,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00255S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 2,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00208S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 3,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00216S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 4,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.002S",
+            "length": 64
+          },
+          {
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "seq": 5,
+            "ttl": 58,
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.00209S",
+            "length": 64
+          }
+        ],
+        "duplicated": 0,
+        "lost": 0,
+        "reordered": 0,
+        "loss": 0.0,
+        "sent": 5
+      },
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "rtt"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "RTT remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b/runs/582e3df2-79ad-4106-a650-13450a1619c7",
+      "added": "2026-11-11T21:48:38+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T12:06:41+00:00",
+      "tool": "ping",
+      "task_id": "7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "start_time": "2026-11-12T12:06:37+00:00",
+      "test_checksum": "b3b65bd9298d33558d9ae35748b8a71234c755df4ac6c062ca68705a6ba87e84",
+      "task_href": "https://remote-DALL/pscheduler/tasks/7bc2e3ce-8088-45a3-9110-7287750d658b",
+      "run_id": "582e3df2-79ad-4106-a650-13450a1619c7",
+      "duration": 10.0
+    }
+  }
+]

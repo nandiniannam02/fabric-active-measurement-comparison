@@ -1,0 +1,19 @@
+tool,target_name,measurements_with_hop_count,comparisons,hop_count_changes,hop_change_pct,min_hop_count,max_hop_count
+Grafana,Cloudflare,96,95,0.0,0.0,6.0,6.0
+Grafana,FABRIC-SEAT,96,95,0.0,0.0,9.0,9.0
+Grafana,Google,96,95,3.0,3.158,8.0,9.0
+Grafana,RIPE-Dallas,96,95,0.0,0.0,7.0,7.0
+Grafana,RIPE-NYC,96,95,0.0,0.0,15.0,15.0
+Grafana,RIPE-Seattle,96,95,0.0,0.0,20.0,20.0
+RIPE Atlas,Cloudflare,96,95,0.0,0.0,6.0,6.0
+RIPE Atlas,FABRIC-SEAT,96,95,0.0,0.0,9.0,9.0
+RIPE Atlas,Google,96,95,0.0,0.0,8.0,8.0
+RIPE Atlas,RIPE-Dallas,96,95,0.0,0.0,7.0,7.0
+RIPE Atlas,RIPE-NYC,0,0,,,,
+RIPE Atlas,RIPE-Seattle,96,95,0.0,0.0,20.0,20.0
+perfSONAR,Cloudflare,95,94,0.0,0.0,6.0,6.0
+perfSONAR,FABRIC-SEAT,96,95,0.0,0.0,8.0,8.0
+perfSONAR,Google,95,94,0.0,0.0,8.0,8.0
+perfSONAR,RIPE-Dallas,96,95,35.0,36.842,7.0,24.0
+perfSONAR,RIPE-NYC,97,96,60.0,62.5,15.0,25.0
+perfSONAR,RIPE-Seattle,96,95,17.0,17.895,20.0,22.0

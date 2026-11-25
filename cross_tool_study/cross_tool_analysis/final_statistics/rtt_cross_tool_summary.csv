@@ -1,0 +1,19 @@
+tool,target_name,measurements,success_pct,avg_packet_loss_pct,avg_rtt_ms,avg_min_rtt_ms,avg_max_rtt_ms,avg_rtt_stddev_ms
+Grafana,Cloudflare,96,100.0,0.0,,0.966,1.234,0.115
+Grafana,FABRIC-SEAT,96,100.0,0.0,,45.094,47.317,1.034
+Grafana,Google,96,100.0,0.347,,20.41,20.67,0.112
+Grafana,RIPE-Dallas,96,100.0,0.0,,2.074,2.744,0.303
+Grafana,RIPE-NYC,96,100.0,0.0,,38.051,38.893,0.375
+Grafana,RIPE-Seattle,96,100.0,0.0,,64.675,65.49,0.375
+RIPE Atlas,Cloudflare,96,100.0,0.0,1.131,1.028,1.246,0.094
+RIPE Atlas,FABRIC-SEAT,96,100.0,0.0,45.853,45.284,46.933,0.764
+RIPE Atlas,Google,96,100.0,0.347,20.759,20.585,20.994,0.182
+RIPE Atlas,RIPE-Dallas,96,100.0,0.0,3.48,3.4,3.583,0.08
+RIPE Atlas,RIPE-NYC,96,100.0,0.0,38.614,38.349,39.059,0.318
+RIPE Atlas,RIPE-Seattle,96,100.0,0.0,64.981,64.92,65.058,0.061
+perfSONAR,Cloudflare,96,100.0,0.0,1.616,1.281,2.438,0.428
+perfSONAR,FABRIC-SEAT,96,100.0,0.0,45.752,45.243,47.504,0.879
+perfSONAR,Google,97,100.0,0.0,20.792,20.509,21.579,0.408
+perfSONAR,RIPE-Dallas,96,100.0,0.0,2.239,1.978,3.017,0.395
+perfSONAR,RIPE-NYC,96,100.0,0.0,38.729,38.355,39.91,0.594
+perfSONAR,RIPE-Seattle,96,100.0,0.0,65.316,65.043,66.149,0.422

@@ -1,0 +1,3842 @@
+[
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T22:47:53.723264567Z",
+    "id": "18b35906-04ae-461e-b54d-a5dfd6935485",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0017S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0017S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0022S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.005S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0075S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0037S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/18b35906-04ae-461e-b54d-a5dfd6935485",
+      "added": "2026-11-11T22:56:54+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T22:47:53+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T22:47:53+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "18b35906-04ae-461e-b54d-a5dfd6935485",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T22:38:33.783622489Z",
+    "id": "03a869ac-572f-42d1-bc1b-4d0696672185",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0013S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0015S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0021S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0048S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0216S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0035S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/03a869ac-572f-42d1-bc1b-4d0696672185",
+      "added": "2026-11-11T22:41:52+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T22:38:33+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T22:38:33+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "03a869ac-572f-42d1-bc1b-4d0696672185",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T22:17:26.675542984Z",
+    "id": "39c5754a-9352-4b0e-a134-a4823bd6afb6",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0018S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0019S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0019S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0045S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0108S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0031S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/39c5754a-9352-4b0e-a134-a4823bd6afb6",
+      "added": "2026-11-11T22:26:51+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T22:17:26+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T22:17:26+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "39c5754a-9352-4b0e-a134-a4823bd6afb6",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T22:04:30.556135638Z",
+    "id": "1d803cc3-d988-4ce5-b7cb-2c4bcf34c4c2",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0002S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0004S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0004S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0032S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0038S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/1d803cc3-d988-4ce5-b7cb-2c4bcf34c4c2",
+      "added": "2026-11-11T22:11:50+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T22:04:30+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T22:04:30+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "1d803cc3-d988-4ce5-b7cb-2c4bcf34c4c2",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T21:44:41.631464907Z",
+    "id": "6308f0c8-f7c0-4eab-b4c7-2d1e5f3f020c",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 18,
+        "error_count": 13,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201:208:80:152:244",
+        "success_count": 5,
+        "checksum": "c0d4702bceccbaf3400a81ce09cdbcb286ee760a3479ae905ac9f1ea1c93c5a8",
+        "as_number_str": "293 293 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0015S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0014S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0015S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0041S"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0025S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/6308f0c8-f7c0-4eab-b4c7-2d1e5f3f020c",
+      "added": "2026-11-11T21:56:49+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T21:44:41+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T21:44:41+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "6308f0c8-f7c0-4eab-b4c7-2d1e5f3f020c",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T21:37:07.575884323Z",
+    "id": "4d782d2c-9060-4ff5-b35f-c188baf9d8c9",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0018S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0017S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0019S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0047S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0039S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0033S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/4d782d2c-9060-4ff5-b35f-c188baf9d8c9",
+      "added": "2026-11-11T21:55:09+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T21:37:07+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T21:37:07+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "4d782d2c-9060-4ff5-b35f-c188baf9d8c9",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T21:26:21.529068430Z",
+    "id": "121f614c-e770-4ca7-af2c-33e7af2fe099",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0012S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0011S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0012S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0039S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0064S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0026S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/121f614c-e770-4ca7-af2c-33e7af2fe099",
+      "added": "2026-11-11T21:54:59+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T21:26:21+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T21:26:21+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "121f614c-e770-4ca7-af2c-33e7af2fe099",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T20:59:16.612772606Z",
+    "id": "3e3997ec-9478-497b-bc1e-6fdfd627a3dd",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0013S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0019S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.002S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0048S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0103S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0037S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/3e3997ec-9478-497b-bc1e-6fdfd627a3dd",
+      "added": "2026-11-11T21:54:49+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T20:59:16+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T20:59:16+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "3e3997ec-9478-497b-bc1e-6fdfd627a3dd",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T20:46:21.534039511Z",
+    "id": "6b718782-38ad-4c30-95f3-635b87996074",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 8,
+        "error_count": 2,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0007S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0006S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0008S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0035S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0065S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/6b718782-38ad-4c30-95f3-635b87996074",
+      "added": "2026-11-11T21:54:39+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T20:46:21+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T20:46:21+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "6b718782-38ad-4c30-95f3-635b87996074",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T20:40:18.604980418Z",
+    "id": "6a814162-48ee-42ee-a72c-c1fe4cbdd233",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 12,
+        "error_count": 6,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0021S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0021S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.002S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0046S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0111S"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0032S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/6a814162-48ee-42ee-a72c-c1fe4cbdd233",
+      "added": "2026-11-11T21:54:29+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T20:40:18+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T20:40:18+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "6a814162-48ee-42ee-a72c-c1fe4cbdd233",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T20:24:49.664238895Z",
+    "id": "31a6bc74-4cef-4d4c-8c33-2fdeaf53ffa0",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 13,
+        "error_count": 7,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0011S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0009S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0009S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0038S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0071S"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/31a6bc74-4cef-4d4c-8c33-2fdeaf53ffa0",
+      "added": "2026-11-11T21:54:19+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T20:24:49+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T20:24:49+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "31a6bc74-4cef-4d4c-8c33-2fdeaf53ffa0",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T20:09:05.552824425Z",
+    "id": "b24f7828-aa1a-4175-92ee-890a372e9006",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0005S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0004S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0006S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0033S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0069S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0019S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/b24f7828-aa1a-4175-92ee-890a372e9006",
+      "added": "2026-11-11T21:54:09+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T20:09:05+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T20:09:05+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "b24f7828-aa1a-4175-92ee-890a372e9006",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T19:49:10.521161361Z",
+    "id": "e7bb4ad3-8e7b-46ab-8e17-6ba7c21d3368",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0026S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0027S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0026S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0051S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0052S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0038S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/e7bb4ad3-8e7b-46ab-8e17-6ba7c21d3368",
+      "added": "2026-11-11T21:53:59+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T19:49:10+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T19:49:10+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "e7bb4ad3-8e7b-46ab-8e17-6ba7c21d3368",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T19:38:04.568494137Z",
+    "id": "e541ca34-0a1c-4dd2-9f7e-7d98fa1cf71a",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 2,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201:208:80:152:244",
+        "success_count": 5,
+        "checksum": "c0d4702bceccbaf3400a81ce09cdbcb286ee760a3479ae905ac9f1ea1c93c5a8",
+        "as_number_str": "293 293 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0002S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0004S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0004S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0032S"
+          },
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0018S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/e541ca34-0a1c-4dd2-9f7e-7d98fa1cf71a",
+      "added": "2026-11-11T21:53:49+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T19:38:04+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T19:38:04+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "e541ca34-0a1c-4dd2-9f7e-7d98fa1cf71a",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T19:13:29.557649420Z",
+    "id": "0f2c42d3-2799-4f1a-8256-3875d115a08b",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 8,
+        "error_count": 2,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0016S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0015S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0015S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0041S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0077S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0027S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/0f2c42d3-2799-4f1a-8256-3875d115a08b",
+      "added": "2026-11-11T21:53:39+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T19:13:29+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T19:13:29+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "0f2c42d3-2799-4f1a-8256-3875d115a08b",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T19:05:42.515324464Z",
+    "id": "efb2c319-801c-4929-bda5-8bf7f8a7b32c",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 8,
+        "error_count": 3,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201:208:80:152:244",
+        "success_count": 5,
+        "checksum": "c0d4702bceccbaf3400a81ce09cdbcb286ee760a3479ae905ac9f1ea1c93c5a8",
+        "as_number_str": "293 293 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0007S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0007S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0098S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0035S"
+          },
+          {},
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0022S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/efb2c319-801c-4929-bda5-8bf7f8a7b32c",
+      "added": "2026-11-11T21:53:29+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T19:05:42+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T19:05:42+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "efb2c319-801c-4929-bda5-8bf7f8a7b32c",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T18:54:53.613844014Z",
+    "id": "b19ae697-536b-46a3-8d16-42fc2e89168e",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 1,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0013S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0013S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0012S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0041S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.0034S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0029S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/b19ae697-536b-46a3-8d16-42fc2e89168e",
+      "added": "2026-11-11T21:53:19+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T18:54:53+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T18:54:53+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "b19ae697-536b-46a3-8d16-42fc2e89168e",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T18:27:49.662284500Z",
+    "id": "2450ce72-d9bd-4b12-8acf-e3ed7c881f08",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201::2",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 17,
+        "error_count": 11,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201::2 2620:0:860:201:208:80:152:244",
+        "success_count": 6,
+        "checksum": "8f7b99e4a468c436a259241e0aa2f4d997e6c83157be1583b53aec07af68b5eb",
+        "as_number_str": "293 293 14907 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0026S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0026S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0026S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.005S"
+          },
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "irb-2201.lsw1-a2-codfw.wikimedia.org",
+            "ip": "2620:0:860:201::2",
+            "rtt": "PT0.008S"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0033S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/2450ce72-d9bd-4b12-8acf-e3ed7c881f08",
+      "added": "2026-11-11T21:53:09+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T18:27:49+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T18:27:49+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "2450ce72-d9bd-4b12-8acf-e3ed7c881f08",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T18:19:39.532158569Z",
+    "id": "590d23d7-813d-4166-a969-09031f029aef",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 2,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201:208:80:152:244",
+        "success_count": 5,
+        "checksum": "c0d4702bceccbaf3400a81ce09cdbcb286ee760a3479ae905ac9f1ea1c93c5a8",
+        "as_number_str": "293 293 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0019S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0018S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.0022S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0049S"
+          },
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0037S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/590d23d7-813d-4166-a969-09031f029aef",
+      "added": "2026-11-11T21:52:59+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T18:19:39+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T18:19:39+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "590d23d7-813d-4166-a969-09031f029aef",
+      "duration": 8.0
+    }
+  },
+  {
+    "@version": "1",
+    "@timestamp": "2026-11-12T17:59:08.515336381Z",
+    "id": "635296b9-0803-404a-ac1f-6c9a00b1ce04",
+    "schedule": {
+      "sliprand": true,
+      "slip": 900.0,
+      "until": "2026-11-13T04:41:46Z",
+      "start": "2026-11-12T04:41:46Z",
+      "repeat": 900.0
+    },
+    "meta": {
+      "destination": {
+        "hostname": "ripe-atlas-codfw.wikimedia.org",
+        "as": {
+          "organization": "Wikimedia Foundation Inc."
+        },
+        "ip": "2620:0:860:201:208:80:152:244",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 14907
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "observer": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "source": {
+        "hostname": "remote-DALL",
+        "as": {
+          "organization": "ESnet"
+        },
+        "ip": "2001:400:a100:3000:f816:3eff:febc:fd55",
+        "geo": {
+          "continent_name": "North America",
+          "as": {
+            "number": 293
+          },
+          "country_name": "United States",
+          "location": {
+            "lat": 37.751,
+            "lon": -97.822
+          }
+        }
+      },
+      "ip_version": 6
+    },
+    "result": {
+      "hop": {
+        "as_organization_str": "ESNET - ESnet, US ESNET - ESnet, US WIKIMEDIA - Wikimedia Foundation Inc., US WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "as_organization": [
+          "ESNET - ESnet, US",
+          "ESNET - ESnet, US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US",
+          "WIKIMEDIA - Wikimedia Foundation Inc., US"
+        ],
+        "ip": [
+          "2001:400:a100:3000::1",
+          "2001:400:a100:1000::1",
+          "2001:504:0:5:0:1:4907:1",
+          "2620:0:860:fe04::1",
+          "2620:0:860:201:208:80:152:244"
+        ],
+        "count": 7,
+        "error_count": 2,
+        "ip_str": "2001:400:a100:3000::1 2001:400:a100:1000::1 2001:504:0:5:0:1:4907:1 2620:0:860:fe04::1 2620:0:860:201:208:80:152:244",
+        "success_count": 5,
+        "checksum": "c0d4702bceccbaf3400a81ce09cdbcb286ee760a3479ae905ac9f1ea1c93c5a8",
+        "as_number_str": "293 293 14907 14907",
+        "as_number": [
+          293,
+          293,
+          14907,
+          14907
+        ]
+      },
+      "json": [
+        [
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:3000::1",
+            "rtt": "PT0.0017S"
+          },
+          {
+            "as": {
+              "owner": "ESNET - ESnet, US",
+              "number": 293
+            },
+            "ip": "2001:400:a100:1000::1",
+            "rtt": "PT0.0019S"
+          },
+          {
+            "hostname": "xe-0-1-8.cr2-eqdfw.wikimedia.org",
+            "ip": "2001:504:0:5:0:1:4907:1",
+            "rtt": "PT0.002S"
+          },
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "xe-5-0-0.cr2-codfw.wikimedia.org",
+            "ip": "2620:0:860:fe04::1",
+            "rtt": "PT0.0046S"
+          },
+          {},
+          {},
+          {
+            "as": {
+              "owner": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+              "number": 14907
+            },
+            "hostname": "ripe-atlas-codfw.wikimedia.org",
+            "ip": "2620:0:860:201:208:80:152:244",
+            "rtt": "PT0.0032S"
+          }
+        ]
+      ],
+      "succeeded": true
+    },
+    "test": {
+      "spec": {
+        "schema": 1,
+        "dest": "2620:0:860:201:208:80:152:244",
+        "source": "2001:400:a100:3000:f816:3eff:febc:fd55"
+      },
+      "type": "trace"
+    },
+    "host": "127.0.0.1",
+    "reference": {
+      "display-task-group": [
+        "Research 15m"
+      ],
+      "display-task-name": "Traceroute remote-DALL to RIPE-Dallas",
+      "psconfig": {
+        "created-by": {
+          "agent-hostname": "remote-DALL",
+          "user-agent": "psconfig-pscheduler-agent",
+          "uuid": "8D062E8B-732B-4DAB-9A37-C14D6E6CBCF6"
+        }
+      }
+    },
+    "pscheduler": {
+      "run_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd/runs/635296b9-0803-404a-ac1f-6c9a00b1ce04",
+      "added": "2026-11-11T21:52:49+00:00",
+      "participants": [
+        "2001:400:a100:3000:f816:3eff:febc:fd55"
+      ],
+      "end_time": "2026-11-12T17:59:08+00:00",
+      "tool": "traceroute",
+      "task_id": "5d26f314-83f5-475b-983c-80e769c162fd",
+      "start_time": "2026-11-12T17:59:08+00:00",
+      "test_checksum": "4bc6d1690f4e37dd6956622e4cbcdc90fcd5caa3bebe0c2bfc0662a9d5c5d5e9",
+      "task_href": "https://remote-DALL/pscheduler/tasks/5d26f314-83f5-475b-983c-80e769c162fd",
+      "run_id": "635296b9-0803-404a-ac1f-6c9a00b1ce04",
+      "duration": 8.0
+    }
+  }
+]
